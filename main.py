@@ -1,3 +1,5 @@
+# main.py
+
 from book_class import Book
 
 def main():
@@ -12,7 +14,6 @@ def main():
 
     # Deleting a book instance to trigger __del__
     del my_book
->>>>>>> f5cd805 (Implement Book class with magic methods)
 
 if __name__ == "__main__":
     main()
